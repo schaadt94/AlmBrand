@@ -1041,11 +1041,12 @@ select {
 
 .lon_billede img:hover {
     transform: scale(1.1);
-}
-
-.lon_billede img:hover {
     border: 1px solid #032846;
     border-radius: 50%;
+}
+
+.lon_billede > input {
+    display: none;
 }
 
 .knap {

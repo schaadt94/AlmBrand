@@ -209,9 +209,24 @@
                 <input type="text" id="mobil" placeholder="Mobil nr..">
             </div>
 
-            <div class="lon_billede">
-                <img src="assets/lon_knap.png" alt="knap">
-            </div>
+
+<div class="lon_billede">
+    <label for="file-input">
+        <img src="assets/lon_knap.png"/>
+    </label>
+
+    <input id="file-input" type="file"/>
+</div>
+
+
+<!--
+<div class="lon_billede">
+    <div id="myknap">
+        <img onclick="myLon()" src="assets/lon_knap.png" alt="knap">
+    </div>
+
+</div>
+-->
 
             <div class="lon_knap">
                 <button class="knap">
@@ -402,6 +417,11 @@
 
         slider.oninput = function() {
             output.innerHTML = this.value;
+        }
+
+        function myLon() {
+            var x = document.getElementById("myKnap");
+            x.disabled = true;
         }
 
     </script>
