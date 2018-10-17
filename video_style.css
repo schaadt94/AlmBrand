@@ -37,6 +37,8 @@ video {
     }
 }
 
+
+
 .lang_video {
 
     text-align: center;
@@ -62,5 +64,9 @@ video {
 
 .hjem:hover {
     font-size: 2.6em;
-    color: rgb(1, 26, 47);
+    color: rgb(1, 19, 34);
+}
+
+i {
+    color: #032846;
 }
