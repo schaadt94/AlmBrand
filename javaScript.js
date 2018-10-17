@@ -26,3 +26,24 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
+// Scroll tilbage til toppen - Knap
+
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("tilTop").style.display = "block";
+    } else {
+        document.getElementById("tilTop").style.display = "none";
+    }
+}
+
+// Når man klikker på denne knap, så kommer man tilbage til toppen
+function tilTopFunktion() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
