@@ -1,0 +1,66 @@
+body {
+    background-color: #D5EDFA;
+}
+
+h1 {
+    font-size: 3em;
+    color: #032846;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #032846;
+    text-align: left;
+}
+
+.grid_ind {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.mini-explainer {
+    text-align: center;
+
+}
+
+video {
+    padding: 1em;
+    margin-left: 50px;
+}
+
+@media screen and (min-width: 920px) {
+    video {
+        width: 600px;
+        margin-left: 0;
+    }
+}
+
+.lang_video {
+
+    text-align: center;
+}
+
+.kort_video {
+
+    text-align: center;
+}
+
+@media screen and (min-width: 920px) {
+    .lang_video .kort_video {
+        width: 600px;
+        margin-left: 0;
+    }
+}
+
+.hjem {
+    font-size: 2.5em;
+    color: #032846;
+    margin: 30px;
+}
+
+.hjem:hover {
+    font-size: 2.6em;
+    color: rgb(1, 26, 47);
+}
