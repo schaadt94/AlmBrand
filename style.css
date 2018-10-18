@@ -1046,8 +1046,8 @@ select {
     padding: 20px;
     text-align: left;
     margin-top: 90px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     line-height: 2;
 }
 
