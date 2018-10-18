@@ -10,6 +10,7 @@ h1 {
 }
 
 h2 {
+    margin-left: 10px;
     font-size: 2em;
     color: #032846;
     text-align: left;
@@ -51,7 +52,7 @@ video {
     text-align: center;
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (max-width: 920px) {
     .lang_video .kort_video {
         width: 600px;
         margin-left: 0;
